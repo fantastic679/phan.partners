@@ -1,4 +1,34 @@
-#deets {
+@font-face {
+    font-family: PackardClipperNF;
+    src: url(../fonts/packardclippernf.ttf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: PackardClipperNF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal; 
+}
+
+#logo-phan {
+    font-size: 50px;
+}
+#logo-partners {
+    font-size: 36px;
+margin-bottom: 20px;
+line-height: 0%
+}
+
+h2, h3 {
+    font-weight: bold; 
+}
+
+#centreofpage {
     /* Centre vertically and horizontally */
     position: absolute;
     top: 50%;
