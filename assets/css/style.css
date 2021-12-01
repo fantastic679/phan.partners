@@ -5,8 +5,9 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 600px;
+    max-width: 660px;
     margin:auto;
+    background-color: #005073;
 }
 
 h1 {
@@ -19,14 +20,36 @@ h1 {
 
 /* Logo styling */
 #logo-phan {
-    font-size: 50px;
+    font-size: 75px;
 }
 #logo-partners {
-    font-size: 36px;
+    font-size: 56px;
     margin-bottom: 20px;
     line-height: 0%
 }
 
 h2, h3 {
     font-weight: bold; 
+}
+
+div {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#div-logo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:#292826;
+    color: #e5ecea;
+}
+
+#div-body {
+    background-color: #e5ecea;
+}
+
+#div-contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#90d9e5;
 }
